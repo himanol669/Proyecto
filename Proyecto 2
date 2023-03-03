@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	  		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<style type="text/css">
+		body{
+			background: #000000;
+		}
+		#player{
+			width: 90%;
+			margin: auto;
+			height: 95vh;
+			padding: 0;
+		}
+
+	</style>
+	<script src="https://undproducer.com/js/player.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="player" autoplay></div>
+
+<script>
+	var player = new Playerjs({
+   id:"player",
+   file:[
+      {"title":"Title","file":"http://190.149.66.90:16000/play/a01x/index.m3u8"},
+
+   ]
+});
+
+</script>
+	</body>
+	</html>
